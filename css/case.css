@@ -1,0 +1,42 @@
+/* main body layout */
+.main {
+  width: 100%;
+  margin-top: 80px;
+  text-align: center;
+  margin-bottom: -60px;
+}
+
+.case-type, .case-title, .case-para {
+    color : #ffffff;
+    z-index: 2;
+}
+
+
+.case-cover {
+    background-color: rgba(88, 15, 249, 0.8);
+    z-index: 1;
+}
+
+.case-image {
+    z-index: 0;
+}
+
+
+
+<main class="main">
+        <div class="main__banner">
+            <div class="case-type">research </div>
+            <h1 class="main__banner-title case-title">Feedo</h1>
+            <p class="main__banner-para case-para">3-day-intensive hackathon project (awarded 2nd prize) </p>
+            <div class="main__banner case-cover">
+                <image class="case-img" src=" "></image>
+            </div>
+        </div>
+
+        <div class="wrapper-case-section">
+            <div class="case-section-odd">
+                <img class="case-section-image" src=""> </img>
+                <h3 class="case-section-title-odd">background issue</h3>
+                <p class="case-section-odd-para">paragraph comes here. paragraph comes here.</p>
+            </div>
+        </div>
