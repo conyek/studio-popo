@@ -1,0 +1,19 @@
+@media screen and (min-width: 300px) and (max-width: 736px) {
+  .footer {
+    flex-direction: column;
+  }
+
+  .footer__wrapper .footer__copyright {
+    display: none;
+  }
+
+  .footer .footer__wrapper {
+    max-width: 90%;
+  }
+  .footer__wrapper .footer__list {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 10px;
+  }
+}

@@ -8,12 +8,11 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
-    <!-- title to enter -->
-    <title> Home | EK-Playground</title>
+    <title> Mini project page by EK | EKKEK</title>
+
 </head>
 
 <body>
-    <!-- navigation -->
     <header class="nav">
         <div class="nav__wrap">
             <div class="nav__icon">
@@ -39,21 +38,31 @@
         </div>
     </header>
 
-    <!-- main -->
-    <main class="index">
-        <div class="index__banner">
-            <div class="index__col">
-                <h1 class="index__title">EK [eeekei]</h1>
-                <p class="index__para">is currently earning $$$ by doing
-                    <a class="color-a" href="casestudies.html">UX design work</a>. This is her playground showcasing some UX work as well as collection of her thoughts
-                    and favorite things.</p>
-            </div>
-            <div class="index__col">
-                <img src="static/images/profile.svg" />
+
+    <main class="main">
+        <div class="main__banner main__banner-contact ">
+            <h1 class="main__banner-title">Want to get in touch?</h1>
+            <p class="main__banner-para">She’s not really into social networks (yea, she’s old..), filling in this form would work better. </p>
+        </div>
+        <div class="contact__wrapper">
+            <div class="contact__forms">
+                <form action="/contact.... " method="post "></form>
+                <div>
+                    <label class="form__label" for="name ">Your email</label>
+                    <input class="form__input" type="email " id="email " name="email " placeholder="you should know your email... :p don 't forget @"
+                        required>
+                </div>
+
+                <div>
+                    <label class="form__label" for="msg">Your message</label>
+                    <textarea id="msg" name="message" required> why do you want to contact me? </textarea>
+                    <button class="btn submit__btn">submit </button>
+                </div>
+                </form>
             </div>
         </div>
-    </main>
-    <!-- Footer -->
+    </main>>
+
     <footer class="footer">
         <div class="footer__wrapper">
             <ul class="footer__lists">

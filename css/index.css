@@ -1,0 +1,47 @@
+.index {
+  width: 100%;
+  height: 100vh;
+  background-color: #580ff9;
+  margin-bottom: -60px;
+  display: flex;
+  text-align: center;
+}
+
+.index__banner {
+  max-width: 960px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  margin: auto;
+}
+
+.index__banner .index__col-left {
+  width: 60%;
+  text-align: left;
+}
+
+.index__banner .index__col-right {
+  width: 40%;
+}
+
+.index__title {
+  font-size: 40px;
+  font-weight: 700;
+  color: white;
+  text-align: left;
+}
+
+.index__para {
+  width: 100%;
+  font-size: 16px;
+  font-weight: 300;
+  color: white;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.index__img {
+  width: 100%;
+  max-width: 385px;
+}

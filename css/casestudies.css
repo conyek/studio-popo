@@ -1,0 +1,42 @@
+.casestudies__wrapper {
+  width: 100%;
+}
+
+.casestudies__wrapper .casestudies__cases {
+  display: flex;
+  justify-content: space-between;
+}
+
+.case {
+  position: relative;
+  width: 100%;
+  vertical-align: top;
+  overflow: hidden;
+  background-size: cover;
+  opacity: 0.8;
+  z-index: 0;
+}
+
+.case__cover {
+  position: absolute;
+  height: 300px;
+  width: 100%;
+  z-index: 1;
+  background-color: rgba(88, 15, 249, 0.5);
+  overflow: hidden;
+}
+
+.case .case__info {
+  position: absolute;
+  z-index: 2;
+  text-align: center;
+  color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.casestudies__cases .case__1 {
+  background-image: url(images/case1.png);
+  height: 300px;
+}
